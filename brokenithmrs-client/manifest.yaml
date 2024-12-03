@@ -1,0 +1,14 @@
+android:
+  manifest:
+    uses_permission:
+      - name: android.permission.INTERNET
+      - name: android.permission.ACCESS_NETWORK_STATE
+    uses_feature:
+      - name: android.hardware.screen.landscape
+      - required: true
+    sdk:
+      min_sdk_version: 26 
+    application:
+      activities:
+        - orientation: sensorLandscape
+          
